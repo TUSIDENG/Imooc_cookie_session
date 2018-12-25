@@ -67,3 +67,8 @@ Cookie: sid=1342077140226724
  sessionStorage用于本地存储一个会话(session)中的数据，这些数据只有在同一个会话的页面才能访问并且当会话结束后数据也随之销毁。因此sessionStorage不是一种持久化的本地存储，仅仅是会话级别的存储。localStorage是用于持久化的本地存储，除非主动删除数据，否则数据永不过期。
 
  web storage和cookie的区别：Web Storage的概念和cookie相似，区别是它是为了更大容量存储设计的。Cookie的大小是受限的，并且每次你请求一个新的页面的时候Cookie都会被发送过去，这样无形中浪费了带宽。web storage一般为5M,cookie为4K。
+
+ ## 参考文献
+ [认识HTTP----Cookie和Session篇](https://zhuanlan.zhihu.com/p/27669892?utm_source=com.daimajia.gold&utm_medium=social)
+ 
+ [localstorage 必知必会](https://juejin.im/post/5a9fcc5e51882555602074e3)
